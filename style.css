@@ -42,7 +42,7 @@ link {
 ul {
   text-align: center;
   margin: 16px auto;
-  width: 20px;
+  width: 60px;
   background-color: darkgoldenrod;
   border-radius: 8px;
   padding-inline: 20px;
@@ -52,6 +52,11 @@ img {
   border-radius: 10px;
   max-height: 200px;
   width: auto;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
 }
 
 .card {
@@ -65,12 +70,17 @@ img {
 
 .list-inline > li {
   display: inline-block;
-  padding: 0px 12px;
+  padding: auto auto;
+}
+
+i {
+  font-size: 30px;
+  width: 50px
 }
 
 .list-inline {
   list-style: none;
-  padding-left: 0px;
+  padding: 0px;
 }
 @media (max-width: 960px) {
   .container {
